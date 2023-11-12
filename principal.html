@@ -1,26 +1,106 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./assets/images/preview_image20200905-20258-1t0zd6e-removebg-preview.ico" type="image/x-icon">
-    <title>Hoteles Golden Crow</title>
-    <link rel="stylesheet" href="css/estiloprincipal.css">
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./assets/images/preview_image20200905-20258-1t0zd6e-removebg-preview.ico" type="image/x-icon">
+  <title>Hoteles Golden Crow</title>
+  <link rel="stylesheet" href="css/basepagina.css">
+  <link rel="stylesheet" href="css/estiloprincipal.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header__head">
       <img src="./assets/images/preview_image20200905-20258-1t0zd6e-removebg-preview.png" width="150px">
-    </header>
-    <div class="container">
-     
+
+      <h1>Hoteles Golden Crow</h1>
+
+      <div>
+        &#128270;
+        <input type="search" placeholder="Buscar">
+      </div>
     </div>
 
+    <nav class="header__nav">
+      <a class="a" href="">Inicio</a>
+      <a class="a" href="">Sitios mas visitados</a>
+      <a class="a" href="">Opiniones</a>
+      <a class="a" href="">Contacto</a>
+
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="reserva">
+    <h1>Realize una reserva</h1>
+    <input type="text" placeholder="Elija destino">
+    <input type="date" placeholder="Fecha de entrada">
+    <input type="date" placeholder="Fecha de salida">
+    <input type="number" placeholder="Personas" min="1">
+    <button type="submit">Buscar</button>
+    </section>
+
+    <section class="recomendaciones">
+      <h1>¿No sabe que destino elegir? Aqui le dejamos unas recomendaciones</h1>
+
+      <div class="sitios">
+        <img src="./assets/images/madrid.jpg" width="300px">
+       
+        <p>
+          Madrid, la capital española, es una ciudad que cautiva a los visitantes con su rica oferta cultural, desde los prestigiosos museos como el Prado hasta la arquitectura impresionante del Palacio Real. Su vibrante escena gastronómica invita a descubrir delicias locales en mercados como el de San Miguel, mientras que los animados barrios de Chueca y Malasaña ofrecen una vida nocturna inigualable. </p>
+      </div>
+
+      <div class="sitios">
+        <img src="./assets/images/praga.jpg" width="300px" >
+        <p>
+          Praga, la pintoresca capital de la República Checa, es un destino encantador que mezcla a la perfección historia, arquitectura y cultura. Con su casco antiguo medieval, el majestuoso Castillo de Praga y el famoso Puente de Carlos, la ciudad ofrece un viaje en el tiempo a través de sus calles empedradas. </p>
+      </div>
+
+      <div class="sitios">
+
+        <img src="./assets/images/roma.jpg" width="300px">
+        <p>Roma, la eterna ciudad, es un fascinante crisol de historia, arte y cultura que cautiva a los visitantes con su legado monumental. Desde el Coliseo imponente y el majestuoso Foro Romano hasta la grandiosidad de la Basílica de San Pedro en el Vaticano, cada rincón de Roma respira antigüedad y grandeza.</p>
+      </div>
+
+      <div class="sitios">
+        <img src="./assets/images/moscu.jpg" width="300px">
+        <p>
+          Moscú, la capital imponente de Rusia, es una metrópoli que fusiona la grandeza histórica con la modernidad. Con sus icónicas cúpulas y torres, el Kremlin y la Catedral de San Basilio definen el horizonte de la ciudad. La extensa Plaza Roja, flanqueada por el Museo Estatal de Historia y el mausoleo de Lenin, es testigo de la historia rusa.</p>
+      </div>
+
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="rdds">
+      <h2>Nuestras Redes Sociales</h2>
+      <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/2227-removebg-preview.png" width="50px"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/2801-removebg-preview.png" width="40px"></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="./assets/images/sl_z_072523_61700_10.jpg" width="50px"></a>
+    </div>
+    <div class="contacto">
+      <h2>Contacto</h2>
+      <p>Puede contactar con nosotros en el siguiente correo electronico:</p>
+      <a href="mailto:hotelgoldencrow@gmail.com" class="correo">hotelgoldencrow@gmail.com</a>
+    </div>
+
+    <div class="estamos">
+      <h2>Donde estamos</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6272.252234089277!2d-3.6921591536247784!3d38.1837444875407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9e99ed5290c1%3A0x3a15d3cf3f7c22d!2zMjMyMTAgR3VhcnJvbcOhbiwgSmHDqW4!5e0!3m2!1ses!2ses!4v1699787502244!5m2!1ses!2ses" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+  </footer>
 
 
 
 
 
-    <script src="./js/script.js"></script>
-  </body>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

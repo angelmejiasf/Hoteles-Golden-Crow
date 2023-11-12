@@ -15,15 +15,7 @@ body {
     background-position: center;
 }
 
-body::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2);
-}
+
 
 /* ANIMATION WALLPAPER */
 @keyframes mover {
@@ -67,9 +59,10 @@ body::after {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     
 }
+
+/* FORM */
 .section{
-    margin-top: 
-    50px;
+    margin-top: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -82,11 +75,12 @@ body::after {
    border: solid 0px;
    border-bottom: solid 2px;
    background-color: transparent;
+   color: white;
 }
 
- 
-
-
+.input:hover{
+    background-color: #DD972D;
+}
 .button:hover{
-    background-color: orange;
+    background-color: #DD972D;
 }
