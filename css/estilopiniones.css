@@ -1,0 +1,33 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin:auto;
+    
+    text-align: center;
+    font-family: CaviarDreams;
+}
+
+/* opinions and ratings */
+.article{
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    /* margin: 20px 20px 20px 20px; */
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.txt{
+    margin-left: 20px;
+}
+
+.img_opinion{
+    border-radius: 100%;
+}
+
+.lista{
+    list-style: none;
+    font-size: 20px;
+}
