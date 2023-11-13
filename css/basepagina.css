@@ -17,14 +17,38 @@ justify-content: space-around;
 align-items: center;
 color: white;
 
+
+}
+
+.logo,.search{
+    animation: updown 2s linear;
+}
+
+@keyframes updown {
+    0%{
+        transform: translateY(-400px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    
 }
 /* HEADER DOWN */
 .header__nav{
     display: flex;
     justify-content: space-around;
     padding-bottom: 10px;
+    animation: apparence 2s linear;
 }
 
+@keyframes apparence {
+  0%{
+    transform: translate(-1800px);
+  }50%{
+    transform: translate(00px);
+  }
+    
+}
 .a{
     color: white;
     text-decoration: none;
@@ -55,10 +79,21 @@ color: white;
     justify-content: space-around;
     text-align: center;
     font-family: CaviarDreams;
+    margin-top:50px;
 }
 
 .rdss{
 display: flex;
+}
+
+.rds{
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+.rds:hover{
+    transform: scale(1.5);
+    transition: transform 0.2s linear;
 }
 
 .correo{

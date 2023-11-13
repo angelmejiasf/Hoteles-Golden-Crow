@@ -11,7 +11,7 @@
 .article{
     box-shadow: 2px 2px 2px 2px black;
     display: flex;
-    /* margin: 20px 20px 20px 20px; */
+    
     padding: 10px 10px 10px 10px;
     width: 60%;
     margin: auto;
