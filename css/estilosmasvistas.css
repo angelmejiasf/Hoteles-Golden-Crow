@@ -1,3 +1,4 @@
+/* CONTAINER */
 .container {
 
     max-width: 1200px;
@@ -12,8 +13,6 @@
 .hotel2,
 .hotel3,
 .hotel4 {
-
-
     width: 60%;
     margin: auto;
     box-shadow: 3px 3px 3px 3px black;

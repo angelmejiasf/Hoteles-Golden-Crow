@@ -10,7 +10,7 @@
     
     
 }
-/* HEADER UP */
+/* TITLE AND LOGO */
 .header__head{
 display: flex;
 justify-content: space-around;
@@ -33,7 +33,7 @@ color: white;
     }
     
 }
-/* HEADER DOWN */
+/* NAV */
 .header__nav{
     display: flex;
     justify-content: space-around;

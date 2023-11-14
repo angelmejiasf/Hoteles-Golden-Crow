@@ -1,11 +1,8 @@
 @font-face {
-    font-family: blackjack;
-    src: url(../assets/fonts/blackjack.otf);
-}
-@font-face {
     font-family: CaviarDreams;
     src: url(../assets/fonts/Caviar_Dreams_Bold.ttf);
 }
+
 /* WALLPAPER */
 body {
     background-image: url(../assets/images/fondo.jpg);
@@ -40,14 +37,14 @@ body {
     width: 100%;
     margin: 0 auto;
     align-items: center;
-   
-    
+
+
 }
 
 /* HEADER */
 .header {
     text-align: center;
-    
+
 
 
 }
@@ -57,11 +54,11 @@ body {
 .slogan {
     font-family: CaviarDreams;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    
+
 }
 
 /* FORM */
-.section{
+.section {
     margin-top: 50px;
     text-align: center;
     display: flex;
@@ -71,16 +68,20 @@ body {
     font-size: 40px;
 }
 
-.input{
-   border: solid 0px;
-   border-bottom: solid 2px;
-   background-color: transparent;
-   color: white;
+.input {
+    border: solid 0px;
+    border-bottom: solid 2px;
+    background-color: transparent;
+    color: black;
 }
 
-.input:hover{
-    background-color: #DD972D;
+.button {
+    transform: scale(1);
+    transition: transform 0.3s linear;
 }
-.button:hover{
+
+.button:hover {
+    transform: scale(2);
+    transition: transform 0.3s linear;
     background-color: #DD972D;
 }

@@ -1,3 +1,4 @@
+/* CONTAINER */
 .container {
     max-width: 1200px;
     width: 100%;
@@ -5,12 +6,14 @@
     font-family: CaviarDreams;
 }
 
+/* BOOKING */
 .reserva {
     text-align: center;
 
     margin-top: 50px;
 }
 
+/* RECOMMENDATIONS */
 .recomendaciones {
     display: grid;
     text-align: center;
@@ -24,10 +27,8 @@
 .sitios2,
 .sitios3,
 .sitios4 {
-    
+
     display: flex;
-    /* max-height: 300px; */
-    
     box-shadow: 2px 2px 2px 2px black;
     margin-bottom: 80px;
     margin-right: 40px;
@@ -62,15 +63,20 @@
     grid-row: 3/4
 }
 
-.sitios_img{
+/* IMAGES */
+.sitios_img {
     transform: scale(1);
     transition: transform 0.2s linear;
+
+
 }
 
-.sitios_img:hover{
+.sitios_img:hover {
     transform: scale(1.5);
     transition: transform 0.2s linear;
 }
+
+/* FOOTER */
 .footer {
     margin-top: 150px;
 }
