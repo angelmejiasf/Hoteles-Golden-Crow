@@ -20,13 +20,29 @@ color: white;
 
 }
 
-.logo,.search{
+
+
+.search{
+    animation: rigthleft 2s linear;
+}
+
+@keyframes rigthleft {
+    0%{
+        transform: translateX(1400px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    
+}
+.logo{
     animation: updown 2s linear;
 }
 
 @keyframes updown {
     0%{
-        transform: translateY(-400px);
+        transform: translateY(-400px) ;
+        
     }
     50%{
         transform: translateY(0px);

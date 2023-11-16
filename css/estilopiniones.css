@@ -9,27 +9,78 @@
 }
 
 /* opinions and ratings */
-.article {
-    box-shadow: 2px 2px 2px 2px black;
-    display: flex;
 
-    padding: 10px 10px 10px 10px;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 30px;
-    text-align: start;
+.opiniones {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
 }
 
-.txt {
-    margin-left: 20px;
+
+.opiniones h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
 }
+
+
+.opinion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.opinion-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 
 .img_opinion {
-    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-/* LIST */
+
+.txt {
+    text-align: center;
+}
+
+/* LIST % VALORATIONS */
+.list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
 .lista {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.lista li {
+    margin-bottom: 10px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista li::before {
+    content: '★';
+    color: #FFD700;
     font-size: 20px;
+    margin-right: 5px;
 }
